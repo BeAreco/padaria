@@ -1,0 +1,35 @@
+.menu{
+	display: flex;
+	width: 100%;
+	background: black;
+	justify-content: center;
+}
+
+.menu_item{
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+td, th {
+  padding: .7em;
+  margin: 0;
+  /*border: 1px solid #ccc;*/
+  text-align: center;
+}
+
+th{
+  /*background-color: #EEE;*/
+}
+td{
+  font-weight:bold;
+  /*background-color: #EEE;*/
+}
+
+table{
+  width: 60%;
+  margin-bottom : .5em;
+  table-layout: fixed;
+  text-align: center;
+}
+
